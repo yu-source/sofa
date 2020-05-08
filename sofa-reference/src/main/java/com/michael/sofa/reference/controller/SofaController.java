@@ -14,6 +14,6 @@ public class SofaController {
 	
 	@RequestMapping("sayHello")
 	public String sayHello() {
-		return helloService.sayHello("Michael");
+		return helloService.sayHello("arjun");
 	}
 }

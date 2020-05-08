@@ -20,7 +20,7 @@ public class Application {
 		    IHelloService helloService = (IHelloService) applicationContext
 		        .getBean("helloService");
 
-		    System.out.println(helloService.sayHello("Michael"));
+		    System.out.println(helloService.sayHello("arjun"));
 	}
 	
 }

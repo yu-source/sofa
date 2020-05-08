@@ -28,13 +28,13 @@ public class SofaConfiguration implements CommandLineRunner {
 //	            .setDirectUrl("bolt://127.0.0.1:12200"); 						// 指定直连地址
 	        // 生成代理类
 	        IHelloService helloService = consumerConfig.refer();
-	        while (true) {
-	            System.out.println(helloService.sayHello("world"));
-	            try {
-	                Thread.sleep(2000);
-	            } catch (Exception e) {
-	            }
-	        }
+//	        while (true) {
+//	            System.out.println(helloService.sayHello("world"));
+//	            try {
+//	                Thread.sleep(2000);
+//	            } catch (Exception e) {
+//	            }
+//	        }
 	}
 	
 }
